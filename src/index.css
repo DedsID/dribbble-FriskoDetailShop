@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --ugrey : #454a60;
+    --uyellow : #d6fb13;
+    --ulightgrey : #b7b9c1;
+}
+
+body {
+    background-color: var(--ugrey);
+    color: white;
+    height: 100%;
+}
+
+.area {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+hr {
+    border: 0.1px solid var(--ulightgrey);
+}
